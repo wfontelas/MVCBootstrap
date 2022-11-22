@@ -21,23 +21,57 @@
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                       
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Exemplo</a>
                         </li>
 
+                        <li class="navi-item dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                                Componentes
+                            </button>
+                        <ul class="dropdown-menu bg-primary" aria-labelledby="dropdownMenuButton">
+
+                                <li class="dropdown-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Alertas" asp-action="Index">Alertas</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Botoes" asp-action="Index">Botoes</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Badge" asp-action="Index">Bagde</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Tabelas" asp-action="Index">Tabelas</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Tabelas" asp-action="Index">Tabelas</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Dropdown" asp-action="Index">Dropdown</a>
+                                </li>
+
+                        </ul>
+                        </li>
+
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Alertas" asp-action="Index">Alertas</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Card" asp-action="Index">Card</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Botoes" asp-action="Index">Botoes</a>
-                        </li>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Carousel" asp-action="Index">Carousel</a>
+                        </li>                        
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Badge" asp-action="Index">Bagde</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="ListGroup" asp-action="Index">ListGroup</a>
                         </li>
-                    </ul>
-                </div>
-            </div>
+         
+                            </ul> 
+                    </div>    
+                         
+                
+            </div>                     
+                            
+            
         </nav>
     </header>
     <div class="container">
