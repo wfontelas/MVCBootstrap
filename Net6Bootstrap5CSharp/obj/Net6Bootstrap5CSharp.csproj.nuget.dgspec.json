@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\William\\source\\repos\\Net6Bootstrap5CSharp\\Net6Bootstrap5CSharp\\Net6Bootstrap5CSharp.csproj": {}
+    "C:\\Users\\William\\source\\repos\\MVCBootstrap\\Net6Bootstrap5CSharp\\Net6Bootstrap5CSharp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\William\\source\\repos\\Net6Bootstrap5CSharp\\Net6Bootstrap5CSharp\\Net6Bootstrap5CSharp.csproj": {
+    "C:\\Users\\William\\source\\repos\\MVCBootstrap\\Net6Bootstrap5CSharp\\Net6Bootstrap5CSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\William\\source\\repos\\Net6Bootstrap5CSharp\\Net6Bootstrap5CSharp\\Net6Bootstrap5CSharp.csproj",
+        "projectUniqueName": "C:\\Users\\William\\source\\repos\\MVCBootstrap\\Net6Bootstrap5CSharp\\Net6Bootstrap5CSharp.csproj",
         "projectName": "Net6Bootstrap5CSharp",
-        "projectPath": "C:\\Users\\William\\source\\repos\\Net6Bootstrap5CSharp\\Net6Bootstrap5CSharp\\Net6Bootstrap5CSharp.csproj",
+        "projectPath": "C:\\Users\\William\\source\\repos\\MVCBootstrap\\Net6Bootstrap5CSharp\\Net6Bootstrap5CSharp.csproj",
         "packagesPath": "C:\\Users\\William\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\William\\source\\repos\\Net6Bootstrap5CSharp\\Net6Bootstrap5CSharp\\obj\\",
+        "outputPath": "C:\\Users\\William\\source\\repos\\MVCBootstrap\\Net6Bootstrap5CSharp\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\William\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
