@@ -1,0 +1,102 @@
+﻿<h1>Modal</h1>
+
+<p>Esta é a página principal na qual está inserido o componente modal do Bootstrap</p>
+
+<!--Button Modal-->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Programação Plena - Modal
+</button>
+
+<!--Modal-->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Programação Plena</h5>
+                <button type="button" class="btn btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Você será redirecionado para o canal Programação Plena no youtube.<br />
+                Deseja continuar?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Não</button>
+                <button type="button" class="btn btn-primary" id="btn-sim">Sim</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script>
+    $("#btn-sim").click(function(){
+        alert("Clicou no sim do modal. Ir para o canal Programação Plena");
+    });
+</script>
+
+<br /><br />
+<!--Button Modal-->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+    Programação Plena - Modal
+</button>
+
+<!--Modal scroll modal-dialog-scrollable depois modal-lg e depois modal-fullscreen-->
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Programação Plena</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>
+              Bootstrap é um framework web com código-fonte aberto para desenvolvimento de componentes de interface e front-end para sites e aplicações web, usando HTML, CSS e JavaScript, baseado em modelos de design para a tipografia, melhorando a experiência do usuário em um site amigável e responsivo.
+
+O Bootstrap é um dos projetos mais bem avaliados no site GitHub, com mais de 111 600 estrelas e 51 500 forks.[1] Possui ampla documentação na página oficial: https://getbootstrap.com/, assim como diversos tutoriais e materiais em português.
+                </p>
+                <p>
+Origem
+Bootstrap é um projeto de código aberto originalmente desenvolvido para o site Twitter, chamado de Twitter Blueprint, desenvolvido por Mark Otto e Jacó Thornton como um instrumento para incentivar a consistência através de ferramentas internas.
+
+Antes de Bootstrap, várias bibliotecas foram utilizadas para o desenvolvimento de interfaces, gerando inconsistências e um elevado peso de manutenção. De acordo com o desenvolvedor Mark Otto:
+</p>
+        </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br /><br />
+<!--Button Modal Static-->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    Programação Plena - Model Static
+</button>
+
+<!--Modal-->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Programação Plena</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Você será redirecionado para o canal Programação Plena no youtube.<br />
+                Deseja continuar?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-primary" id="btn-sim-static">Sim</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $("#btn-sim-static").click(function(){
+        alert("Clicou no sim do modal STATIC. Ir para o canal Programação Plena");
+    });
+</script>
+
