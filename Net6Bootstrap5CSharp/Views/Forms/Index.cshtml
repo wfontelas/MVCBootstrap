@@ -1,0 +1,67 @@
+﻿<h1>Forms - Formas</h1>
+
+<form class="row">
+    <div class="mb-3">
+        <label for="nome" class="form-label">Nome</label>
+        <input type="text" class="form-control" id="nome" placeholder="nome completo" />
+    </div>
+    <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="email@domino.com" />
+    </div>
+    <div class="mb-3">
+        <label for="quantidade" class="form-label">Quantidade</label>
+        <input type="number" class="form-control" id="quantidade" placeholder="quantidade" />
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Textarea</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+
+    <!--range-->
+    <div class="mb-3">
+        <label for="avaliacao" class="form-label">Nota</label>
+        <input type="range" class="form-range" min="1" max="5" id="avaliacao" />
+    </div>
+    <!--input group-->
+    <label for="basic-url" class="form-label">Seu canal do Youtube</label>
+    <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon3">https://youtube.com</span>
+        <input type="text" class="from-control" id="basic-url" aria-describedby="basic-addon3" />
+    </div>
+
+    <!--form-Select-->
+    <select class="form-select form-select-lg mb-3">
+        <option selected>Selecione o setor</option>
+        <option value="1">Alimentos</option>
+        <option value="2">Limpeza</option>
+        <option value="3">Padaria</option>
+    </select>
+
+    <!--Form-check-input-->
+        <div class="input-group mb-3">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                <label class="form-check-label" for="flexCheckDefault">
+                  Quero receber notificações das alterações do aplicativo
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" />
+                <label class="form-check-label" for="flexCheckChecked">
+                  Quero receber notificações de novos produtos
+                </label>
+            </div>
+        </div>
+
+
+
+    <div class="col-auto">
+        <button type="submit" class="btn btn-primary mb-3">Enviar</button></div>
+</form>
+
+<script>
+    $("form").submit(function(){
+        alert("enviar o formulário")
+    });
+</script>

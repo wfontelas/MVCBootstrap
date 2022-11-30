@@ -1,11 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Net6Bootstrap5CSharp",
     "\\Net6Bootstrap5CSharp\\Views",
-    "\\Net6Bootstrap5CSharp\\Views\\Collapse",
-    "\\Net6Bootstrap5CSharp\\Views\\ListGroup",
-    "\\Net6Bootstrap5CSharp\\Views\\Shared"
+    "\\Net6Bootstrap5CSharp\\Views\\Modal"
   ],
-  "SelectedNode": "\\Net6Bootstrap5CSharp.sln",
+  "SelectedNode": "\\Net6Bootstrap5CSharp\\Views\\Modal\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }
