@@ -1,6 +1,6 @@
 ﻿<h1>Forms - Formas</h1>
 
-<form class="row">
+@*<form class="row">
     <div class="mb-3">
         <label for="nome" class="form-label">Nome</label>
         <input type="text" class="form-control" id="nome" placeholder="nome completo" />
@@ -39,29 +39,108 @@
     </select>
 
     <!--Form-check-input-->
-        <div class="input-group mb-3">
+        <div class="input-group d-block mb-3">
             <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"disabled/>
                 <label class="form-check-label" for="flexCheckDefault">
                   Quero receber notificações das alterações do aplicativo
                 </label>
-            </div>
+            </div>            
             <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" />
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked/>
                 <label class="form-check-label" for="flexCheckChecked">
                   Quero receber notificações de novos produtos
                 </label>
             </div>
         </div>
 
+        <!--Radio type="radio"-->
+        <div class="input-group d-block mb-3">
+           
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+                <label class="form-checke-label" for="flexRadioDefault1">
+                    Sim, quero receber notificações
+                </label>
+            </div>       
+
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked />
+            <label class="form-check-label" for="flexRadioDefault2">
+                Não quero receber notificações
+            </label>
+            </div>
+        </div>
+
+        <!--class="form-floating"-->
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="nome2" placeholder="nome" />
+            <label for="nome2">Nome completo</label>  
+        </div>
+
+        <div class="col-auto">
+        <button type="submit" class="btn btn-primary mb-3">Enviar</button>
+        </div>
+        </form>*@  
 
 
-    <div class="col-auto">
-        <button type="submit" class="btn btn-primary mb-3">Enviar</button></div>
+
+<!--Usando o sistema de grade-->
+<form class="col-lg-6 offset-lg-3">
+    <div class="row mb-3">
+        <label for="email" class="col-sm-2 col-for-label">Email</label>
+        <div class="col-sm-10">
+            <input type="email" class="form-control" id="email" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label for="inputPassword3" class="col-sm-2 col-for-label">Senha</label>
+        <div class="col-sm-10">
+            <input type="password" class="form-control" id="inputPassword3" />
+        </div>
+    </div>
+
+    <fieldset class="row mb-3">
+        <legend class="col-form-label col-sm-2 pt-0">Setores</legend>
+        <div class="col-sm-10">
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked />
+                <labe class="form-check-label" for="gridRadios1">
+                    Alimentos
+                </labe>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2" />
+                <label class="form-check-label" for="gridRadios2">
+                    Limpeza
+                </label>
+            </div>
+            <div class="form-check disabled">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option2" />
+                <label class="form-check-label" for="gridRadios3">
+                    Padaria
+                </label>
+            </div>            
+        </div>
+    </fieldset>
+    
+    <div class="row mb-3">
+        <div class ="col-sm-10 offset-sm-2">
+            <div class="form-check">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck1" />
+                  <label class="form-check-label" for="gridCheck1">
+                      Quero receber notificações
+                  </label>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <button type="submit" class="btn btn-primary">Enviar</button>
 </form>
 
 <script>
     $("form").submit(function(){
-        alert("enviar o formulário")
+        alert($("#email").val());
     });
 </script>
