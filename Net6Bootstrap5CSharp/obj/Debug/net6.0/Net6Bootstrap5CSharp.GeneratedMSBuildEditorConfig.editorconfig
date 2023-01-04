@@ -72,12 +72,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnaW5hdGlvblxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/William/source/repos/MVCBootstrap/Net6Bootstrap5CSharp/Views/Popover/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9wb3ZlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/William/source/repos/MVCBootstrap/Net6Bootstrap5CSharp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/William/source/repos/MVCBootstrap/Net6Bootstrap5CSharp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/William/source/repos/MVCBootstrap/Net6Bootstrap5CSharp/Views/Spinner/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Bpbm5lclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/William/source/repos/MVCBootstrap/Net6Bootstrap5CSharp/Views/Tabelas/Index.cshtml]

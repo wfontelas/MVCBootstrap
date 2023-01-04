@@ -1,0 +1,42 @@
+﻿<h1>Popover</h1>
+
+<br />
+
+<button id="info" type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" 
+data-bs-placement="right" data-bs-trigger="hover focus" data-bs-content="Aqui vai a mensagem do popover">
+Mostrar a mensagem
+</button>
+
+<br /><br />
+
+<div class="form-group">
+    <label>Nome</label>
+    <input id="nome" type="text" placeholder="nome completo" data-bs-container="body" data-bs-toggle="popover"
+    data-placement="top" data-bs-content="Não abrevie o nome!" />
+</div>
+<br />
+<button id="salvar" type="button" class="btn btn-secondary">Informações</button>
+
+<br /><br />
+
+<!--JQuery-->
+<script>
+    $('#info').click(function(){
+        $('#info').popover('show');
+    })
+    
+    $('#salvar').click(function () {
+        $('#nome').popover('show');
+    })
+
+    $('#nome').mouseover(function(){
+        $('#nome').popover('show');
+    });
+
+    $('#nome').mouseout(function () {
+        $('#nome').popover('hide');
+    });
+
+</script>
+
+    <!--OBS: esses códigos em JQUERY funcionaram, pois subimos a tag do src do jquery para a head na Layout.cshtml-->
