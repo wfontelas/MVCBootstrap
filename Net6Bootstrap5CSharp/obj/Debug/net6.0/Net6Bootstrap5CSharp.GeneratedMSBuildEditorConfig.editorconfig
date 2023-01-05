@@ -64,6 +64,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kYWxcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/William/source/repos/MVCBootstrap/Net6Bootstrap5CSharp/Views/Navbar/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmF2YmFyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/William/source/repos/MVCBootstrap/Net6Bootstrap5CSharp/Views/NavsTabs/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmF2c1RhYnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -74,6 +78,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/William/source/repos/MVCBootstrap/Net6Bootstrap5CSharp/Views/Popover/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9wb3ZlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/William/source/repos/MVCBootstrap/Net6Bootstrap5CSharp/Views/ProgressBar/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZ3Jlc3NCYXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/William/source/repos/MVCBootstrap/Net6Bootstrap5CSharp/Views/Shared/Error.cshtml]
@@ -90,6 +98,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/William/source/repos/MVCBootstrap/Net6Bootstrap5CSharp/Views/Tabelas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFiZWxhc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/William/source/repos/MVCBootstrap/Net6Bootstrap5CSharp/Views/Toast/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9hc3RcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/William/source/repos/MVCBootstrap/Net6Bootstrap5CSharp/Views/_ViewImports.cshtml]

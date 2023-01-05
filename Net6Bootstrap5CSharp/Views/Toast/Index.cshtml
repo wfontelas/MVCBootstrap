@@ -1,0 +1,71 @@
+﻿<h1>Toast</h1>
+
+<br />
+<p>
+    Bootstrap é um framework web com código-fonte aberto para desenvolvimento de componentes de interface e front-end para sites e aplicações web, usando HTML, CSS e JavaScript, baseado em modelos de design para a tipografia, melhorando a experiência do usuário em um site amigável e responsivo. 
+</p>
+
+<p>
+    O Bootstrap é um dos projetos mais bem avaliados no site GitHub, com mais de 111 600 estrelas e 51 500 forks.[1] Possui ampla documentação na página oficial: https://getbootstrap.com/, assim como diversos tutoriais e materiais em português.
+</p>
+
+<p>
+    Bootstrap é um framework web com código-fonte aberto para desenvolvimento de componentes de interface e front-end para sites e aplicações web, usando HTML, CSS e JavaScript, baseado em modelos de design para a tipografia, melhorando a experiência do usuário em um site amigável e responsivo.
+</p>
+
+<p>
+    O Bootstrap é um dos projetos mais bem avaliados no site GitHub, com mais de 111 600 estrelas e 51 500 forks.[1] Possui ampla documentação na página oficial: https://getbootstrap.com/, assim como diversos tutoriais e materiais em português.
+</p>
+
+<br />
+<button type="button" id="btn-mostrar-mensagem" class="btn btn-primary" id="btn-toast">Mostrar Mensagem</button>
+
+<!--
+<div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header text-white bg-warning">
+        <strong class="me-auto">Titulo da mensagem</strong>
+        <small>Sub-título</small>
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+
+    <div class="toast-body bg-danger text-white">
+        Aqui vai o corpo da mensagem.Ela pode ser uma menasagem longa.
+    </div>
+</div>-->
+
+<div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="d-flex">
+            <div class="toast-body">
+                Aqui vai o corpo da mensagem.Ela pode ser uma mensagem longa.
+                <div class="mt-2 pt-2 border-top">
+                    <button type="button" id="btn-salvar" class="btn btn-primary btn-sm">Salvar</button>
+                    <button type="button" id="btn-close" class="btn btn-primary btn-sm" data-bs-dismiss="toast">
+                        Fechar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    //Quando usar "." vc esta linkando com uma classe
+    $("#btn-mostrar-mensagem").click(function(){
+        $(".toast").show();
+    })    
+    
+    $(".btn-close").click(function(){
+        $(".toast").hide();
+    })
+
+
+    //Quando usar # vc esta linkando com um id
+    $("#btn-close").click(function () {
+        $(".toast").hide();
+    })
+
+    $("#btn-salvar").click(function (){
+        alert("salvar o funcionário");
+    })
+</script>
